@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Name - Project Manager</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        header {
+            background-color: #004d7a;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+
+        nav {
+            margin: 20px 0;
+        }
+
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .hero {
+            background-image: url('https://example.com/dana-island.jpg'); /* Replace with your image URL */
+            background-size: cover;
+            background-position: center;
+            height: 400px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            text-align: center;
+        }
+
+        .hero h2 {
+            font-size: 3em;
+            margin: 0;
+            background: rgba(0, 0, 0, 0.5);
+            padding: 20px;
+        }
+
+        .container {
+            padding: 20px;
+        }
+
+        .about, .projects, .contact {
+            margin: 20px 0;
+        }
+
+        h2 {
+            color: #004d7a;
+        }
+
+        .footer {
+            background-color: #004d7a;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+        }
+
+        .footer p {
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Your Name</h1>
+    <nav>
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+    </nav>
+</header>
+
+<div class="hero">
+    <h2>Leading the Development of Dana Island</h2>
+</div>
+
+<div class="container">
+    <section id="about" class="about">
+        <h2>About Me</h2>
+        <p>As the Project Manager of Dana Island, I am responsible for overseeing the entire development process, from initial planning to execution. With a strong background in real estate development and a passion for creating sustainable and innovative projects, I lead a team of experts to bring the vision of Dana Island to life.</p>
+    </section>
+
+    <section id="projects" class="projects">
+        <h2>Projects</h2>
+        <p>Dana Island is a unique project in Abu Dhabi, offering exclusive opportunities for luxury living. The island features 50-suite luxury hotels, 60 branded villas, and a range of amenities that position it as a premium destination. Our approach leverages the natural beauty of the island while providing high-end, sustainable development options for discerning clients.</p>
+        <p>Key Highlights:</p>
+        <ul>
+            <li>50-suite luxury hotel with world-class amenities</li>
+            <li>60 branded villas with private beachfronts</li>
+            <li>Association with premium brands for development and management</li>
+        </ul>
+    </section>
+
+    <section id="contact" class="contact">
+        <h2>Contact</h2>
+        <p>Email: <a href="mailto:your.email@example.com">your.email@example.com</a></p>
+        <p>Phone: +123 456 7890</p>
+        <p>LinkedIn: <a href="https://www.linkedin.com/in/yourprofile" target="_blank">Your LinkedIn Profile</a></p>
+    </section>
+</div>
+
+<div class="footer">
+    <p>&copy; 2024 Your Name. All Rights Reserved.</p>
+</div>
+
+</body>
+</html>
